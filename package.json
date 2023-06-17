@@ -1,0 +1,9 @@
+{
+  "name": "sparkline",
+  "version": "1.0.0",
+  "description": "Simple sparkline component",
+  "main": "index.js",
+  "repository": "git@github.com:react-sandbox/sparkline.git",
+  "author": "William Grosset (https://williamgrosset.com)",
+  "license": "MIT"
+}
