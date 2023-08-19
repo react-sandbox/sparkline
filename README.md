@@ -1,2 +1,12 @@
 # sparkline
-✨ Simple sparkline component
+
+📈 Sparkline SVG component
+
+## Development
+
+### Local
+
+```
+pnpm install
+pnpm dev
+```
