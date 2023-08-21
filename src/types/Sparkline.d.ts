@@ -1,15 +1,12 @@
-type ChartType = 'line' | 'area' | 'spline' | 'spline-area'
-
-type Point = {
-  x: number
-  y: number
-}
-
-type Line = Array<Point>
+type ChartType = 'line' | 'area'
 
 export interface SparklineProps {
-  type: ChartType
-  line: Line
+  values: Array<number>
   width: number
   height: number
+  type?: ChartType
+  lineColor?: string
+  areaColor?: string
+  className?: string
+  style?: React.CSSProperties
 }
