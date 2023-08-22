@@ -10,7 +10,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <main>{/* TODO */}</main>
+      <main>
+        <Sparkline values={[1, 2, 1, 4, 6, 8, 6]} width={50} height={50} />
+      </main>
     </>
   )
 }
