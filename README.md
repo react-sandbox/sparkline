@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="example.png" alt="Example" width="75%" height="75%" />
+  <img src="example.png" alt="Example" />
 </p>
 
 <p align="center">📈 Sparkline SVG component.</p>
