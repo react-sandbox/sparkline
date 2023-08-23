@@ -11,7 +11,32 @@ export default function Home() {
       </Head>
 
       <main>
-        <Sparkline values={[1, 2, 1, 4, 6, 8, 6]} width={50} height={50} />
+        <Sparkline
+          values={[1, 2, 1, 4, 6, 8, 6]}
+          width={100}
+          height={100}
+          lineColor="#00FF00"
+          lineWidth={4}
+          fillColor="#9DFF9D"
+        />
+
+        <Sparkline
+          values={[3, 2, 4, 3, 3, 2, 3]}
+          width={100}
+          height={100}
+          lineColor="#EED202"
+          lineWidth={4}
+          fillColor="#FFE900"
+        />
+
+        <Sparkline
+          values={[4, 3, 4, 6, 5, 4, 2]}
+          width={100}
+          height={100}
+          lineColor="red"
+          lineWidth={4}
+          fillColor="#FF9999"
+        />
       </main>
     </>
   )
