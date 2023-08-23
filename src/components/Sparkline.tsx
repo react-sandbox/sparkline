@@ -13,9 +13,9 @@ export default function Sparkline({
   values,
   width,
   height,
-  lineColor = '#3590ad',
-  lineWidth = 2,
-  fillColor = '#bcdfea',
+  lineColor = '#4989eb',
+  lineWidth = 3,
+  fillColor = '#b2cff2',
   fillOpacity = 1,
   className,
   style

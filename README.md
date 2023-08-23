@@ -46,9 +46,9 @@ function App() {
 | `values`      | `Array<number>`       | **required** | Y-coordinates on graph |
 | `width`       | `number`              | **required** | Sparkline width        |
 | `height`      | `number`              | **required** | Sparkline height       |
-| `lineColor`   | `string`              | `'#3590ad'`  | Line stroke color      |
-| `lineWidth`   | `number`              | `2`          | Line stroke width      |
-| `fillColor`   | `string`              | `'#bcdfea'`  | Fill area color        |
+| `lineColor`   | `string`              | `'#4989eb'`  | Line stroke color      |
+| `lineWidth`   | `number`              | `3`          | Line stroke width      |
+| `fillColor`   | `string`              | `'#b2cff2'`  | Fill area color        |
 | `fillOpacity` | `number`              | `1`          | Fill area opacity      |
 | `className`   | `string`              | `-`          | CSS classes            |
 | `style`       | `React.CSSProperties` | `-`          | CSS styles             |
