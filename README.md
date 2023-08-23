@@ -41,17 +41,17 @@ function App() {
 
 ### Props
 
-| Prop          | Type                  | Default         | Description            |
-| ------------- | --------------------- | --------------- | ---------------------- |
-| `values`      | `Array<number>`       | **required**    | Y-coordinates on graph |
-| `width`       | `number`              | **required**    | Sparkline width        |
-| `height`      | `number`              | **required**    | Sparkline height       |
-| `lineColor`   | `string`              | `'#000000'`     | Line stroke color      |
-| `lineWidth`   | `number`              | `1`             | Line stroke width      |
-| `fillColor`   | `string`              | `'transparent'` | Fill area color        |
-| `fillOpacity` | `number`              | `1`             | Fill area opacity      |
-| `className`   | `string`              | `-`             | CSS classes            |
-| `style`       | `React.CSSProperties` | `-`             | CSS styles             |
+| Prop          | Type                  | Default      | Description            |
+| ------------- | --------------------- | ------------ | ---------------------- |
+| `values`      | `Array<number>`       | **required** | Y-coordinates on graph |
+| `width`       | `number`              | **required** | Sparkline width        |
+| `height`      | `number`              | **required** | Sparkline height       |
+| `lineColor`   | `string`              | `'#3590ad'`  | Line stroke color      |
+| `lineWidth`   | `number`              | `2`          | Line stroke width      |
+| `fillColor`   | `string`              | `'#bcdfea'`  | Fill area color        |
+| `fillOpacity` | `number`              | `1`          | Fill area opacity      |
+| `className`   | `string`              | `-`          | CSS classes            |
+| `style`       | `React.CSSProperties` | `-`          | CSS styles             |
 
 ## Development
 
