@@ -13,7 +13,7 @@ export default function Sparkline({
   values,
   width,
   height,
-  lineColor = 'black',
+  lineColor = '#000000',
   lineWidth = 1,
   fillColor = 'transparent',
   fillOpacity = 1,
@@ -23,7 +23,7 @@ export default function Sparkline({
   const MAX_X_COORD = values.length - 1
   const MAX_Y_COORD = Math.max(...values)
 
-  const LINE_COORDS = `M0 ${generateY(
+  const lineCoords = `M0 ${generateY(
     values[0],
     height,
     MAX_Y_COORD + lineWidth
@@ -34,7 +34,7 @@ export default function Sparkline({
     return ` L ${x} ${y}`
   })}`
 
-  const FILL_COORDS = `${LINE_COORDS} V ${height} L 0 ${height} Z`
+  const fillCoords = `${lineCoords} V ${height} L 0 ${height} Z`
 
   return (
     <svg
@@ -47,7 +47,7 @@ export default function Sparkline({
     >
       {/* Fill */}
       <path
-        d={FILL_COORDS}
+        d={fillCoords}
         fill={fillColor}
         fillOpacity={fillOpacity}
         stroke="none"
@@ -55,7 +55,7 @@ export default function Sparkline({
 
       {/* Line */}
       <path
-        d={LINE_COORDS}
+        d={lineCoords}
         stroke={lineColor}
         strokeWidth={lineWidth}
         fill="none"
