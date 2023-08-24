@@ -3,6 +3,12 @@
 </h1>
 
 <p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/react-sandbox/sparkline/playwright.yml" alt="Build status" />
+  <img src="https://img.shields.io/bundlephobia/minzip/@react-sandbox/sparkline?color=%234ba0f6" alt="Build size" />
+  <img src="https://img.shields.io/npm/dt/@react-sandbox/sparkline?color=%234ba0f6" alt="Package downloads" />
+</p>
+
+<p align="center">
   <img src="example.png" alt="Example" />
 </p>
 
